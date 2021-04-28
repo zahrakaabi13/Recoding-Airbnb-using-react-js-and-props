@@ -1,0 +1,232 @@
+/*===Declaring variables
+=============================================================*/
+:root{
+  --main-clr : #242424;
+  --select-clr : #fff;
+  --secondary-clr: #e85333;
+  --ffst-clr:#A3A3A3CC;
+}
+
+
+
+/*===Settings of the landing page
+=============================================================*/
+*, 
+*::before,
+*::after{
+  box-sizing: border-box
+}
+body{
+  -webkit-font-smoothing: antialiased;
+}
+::selection{
+  color: var(--select-clr);
+  background-color: var(--secondary-clr);
+}
+
+
+
+/*===top bar
+=============================================================*/
+.topbar{
+  padding: 20px 0 20px 0 !important;
+  text-align: center !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  background: var(--main-clr) !important;
+}
+.topbar span{
+  color: var(--ffst-clr) ;
+  text-decoration: underline;
+}
+
+
+
+/*===Explorez les environs
+=============================================================*/
+.bg--landing{
+  background-image: url("");
+}
+
+
+
+
+
+/*===Explorez les environs
+=============================================================*/
+.exp-environs h1{
+  font-size:32px;
+  font-weight:bold !important;
+}
+.environ--child p{
+  font-size: 16px !important;
+  color : var(--main-clr);
+  text-decoration: none;
+}
+.environ--child h1{
+font-size: 18px !important;
+font-weight: bold !important;
+color : var(--main-clr);
+text-decoration: none;
+}
+.environ--child a:hover{
+  text-decoration: none !important;
+}
+.environ--child img{
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+}
+.parag{
+  width: 14vw;
+}
+.cities{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cities >*{
+  flex : 0 0 25;
+}
+
+
+
+/*===Chez vous, partout
+=============================================================*/
+.chez-vous{
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-vous{
+  border-radius: 10px !important;
+}
+.card-vous{
+  width: 16em;
+  border:none !important;
+}
+.text{
+  font-weight: bold !important;
+  color: #000 !important;
+  font-size: 18px !important;
+  position:absolute;
+  left: 0 !important;
+}
+.title--vous{
+  font-weight: bold !important;
+  font-size: 35px;
+}
+
+
+
+/*===En savoir plus
+=============================================================*/
+.bg{
+  background-image: url("https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1200");
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  border-radius: 25px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding-left: 7%;
+  padding-top: 8%;
+}
+.bg :is(h1, p){
+  color: var(--select-clr);
+  white-space: pre-wrap !important;
+  letter-spacing: normal !important;
+}
+.bg h1{
+  font-size: 48px !important;
+  font-weight: 600 !important;
+}
+.bg p{
+  font-size: 18px !important;
+  line-height: 24px !important;
+  max-width: 370px;
+}
+.bg button{
+  background: #fff;
+  color: var(--main-clr);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer !important;
+  text-align: center !important;
+  width: auto !important;
+  touch-action: manipulation !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  margin-top: 2% !important;
+  color: rgb(72, 72, 72) !important;
+  padding: 13px 40px !important;
+}
+
+
+
+/*===Eperiences
+=============================================================*/
+.exp--text :is(h1, p){
+  margin-left: 10px;
+  white-space: pre-line !important;
+}
+.exp--text h1{
+  font-size: 35px;
+  font-weight: 700;
+}
+.exp--text p{
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.Exp{
+  display: flex;
+  flex-wrap: wrap;
+}
+.body{
+  padding: 0 !important;
+}
+.carte--Exp{
+  border: none !important;
+  width: 23em;
+}
+.img--exp{
+  border-radius: 10px !important;
+}
+.desc--exp{
+  font-size: 14px !important;
+  line-height: 18px !important;
+  font-weight: 400 !important;
+  margin-left: 0 !important;
+}
+.title--exp{
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+
+
+/*===Footer
+=============================================================*/
+.footer{
+  background-color: #f7f7f7;
+  border-top: .5px solid #acacac ;
+}
+.css--text h2{
+  color: #222222 !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  margin-bottom: 20px !important;
+}
+.css--text ul {
+  list-style: none;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+.css--text ul li{
+  color: #222222 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+}
+
+
+/*===Copyright
+=============================================================*/
